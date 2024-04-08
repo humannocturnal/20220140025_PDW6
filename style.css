@@ -1,0 +1,58 @@
+body {
+    background-image: url(wp11199927.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #fc0000;
+    background: #eb8108;
+    color: #361500;
+    box-shadow: 1px 1px 2px #C69B7B;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+video, audio, picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Aturan untuk menengahkan gambar yang berada di akhir */
+.picture-container {
+    text-align: center;
+}
+
+/* Aturan untuk gambar responsif */
+.picture-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Aturan untuk gambar ketika lebar browser kurang dari 600px */
+@media (max-width: 600px) {
+    .picture-container img {
+        width: 100%;
+    }
+}
